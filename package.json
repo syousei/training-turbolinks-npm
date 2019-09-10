@@ -1,0 +1,26 @@
+{
+  "name": "training_turbolinks",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "watch": "npx webpack --mode=development --watch",
+    "build": "npx webpack --mode=production",
+    "build:dev": "npx webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "write-file-webpack-plugin": "^4.5.1"
+  },
+  "main": "webpack.config.js",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "turbolinks": "^5.2.0"
+  },
+  "description": ""
+}
